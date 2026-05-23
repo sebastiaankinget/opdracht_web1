@@ -1,107 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fotogalerij</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fotogalerij</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
 <style>
-@media screen  and (min-width: 700px ) {
- .grid {
-
-display: grid;
-gap: 20px;
-grid-template-columns: 1fr 1fr 1fr;
-text-align: center;
-place-items: center;
-}
- style>
-
-th, td {
-padding: 15px; /* Adds space inside cells */
-text-align: center;
-}
-
-}
-@media screen  and (max-width: 700px) {
- .grid {
-
-display: grid;
-gap: 20px;
-grid-template-columns: 1fr ;
-text-align: center;
-place-items: center;
-}
- style>
-
-th, td {
-padding: 15px; /* Adds space inside cells */
-text-align: center;
-}
-
-}
-
 
 </style>
 
 <body>
+    <div class="header">fotogalerij</div>
   <p>a</p>
-<div class="navigatie"> 
-    <a  href="index.html" >home</a>                                                         
-   <a href="voorstelling.html" >voorstelling</a> 
-   <a href="tips.html"> tips</a>
- <a> fotogalerij</a> 
- <a href="voorspellingen.html"> voorspellingen</a>
- <a href="contact.html"> contact</a>
- 
-</div>
-<div class="header">fotogalerij</div>
+  <div class="navigatie">
+    <a href="index.html">home</a>
+    <a href="voorstelling.html">voorstelling</a>
+    <a href="tips.html"> tips</a>
+    <a> fotogalerij</a>
+    <a href="voorspellingen.html"> voorspellingen</a>
+    <a href="contact.html"> contact</a>
+
+  </div>
 
 
+<div id="container">
+<main>
+  <div class="gridphotos">
+    <figure class="grid-item"><img
+        srcset="Johannes_JJ_Pietsch_-_Federal_Chancellery_-_2025-05-19_-_SRO6120-ARW_(cropped_2).jpg, Johannes_JJ_Pietsch_-_Federal_Chancellery_-_2025-05-19_-_SRO6120-ARW_(cropped_2)_low.jpg"
+        src="Johannes_JJ_Pietsch_-_Federal_Chancellery_-_2025-05-19_-_SRO6120-ARW_(cropped_2).jpg" height="180"
+        alt="de Oostenrijkse winnaar van eurovisie 2025" />
+      <figcaption>de Oostenrijkse winnaar van eurovisie 2025</figcaption>
+    </figure>
 
-<div class= "grid" >
-   <figure class="grid-item"><img srcset="Johannes_JJ_Pietsch_-_Federal_Chancellery_-_2025-05-19_-_SRO6120-ARW_(cropped_2)_low.jpg"
-  src="Johannes_JJ_Pietsch_-_Federal_Chancellery_-_2025-05-19_-_SRO6120-ARW_(cropped_2).jpg" height="180"
-  alt="de Oostenrijkse winnaar van eurovisie 2025" />  
-  <figcaption>de Oostenrijkse winnaar van eurovisie 2025</figcaption></figure>
-        
-    <figure class="grid-item"><img srcset="eurovision-2026-stage-6_low.jpg 2x"
-  src="eurovision-2026-stage-6.jpg" height="180"
-  alt="het stadium van het festival in 2026" />
-  <figcaption>het stadium van het festival in 2026</figcaption></figure>
+    <figure class="grid-item"><img srcset="eurovision-2026-stage-6_low.jpg, eurovision-2026-stage-6_low.jpg 2x"
+        src="eurovision-2026-stage-6.jpg" height="180" alt="het stadium van het festival in 2026" />
+      <figcaption>het stadium van het festival in 2026</figcaption>
+    </figure>
 
 
-      <figure class="grid-item"><img srcset="ESC_2026_Map.svg_LOW.png 2x"
-  src="ESC_2026_Map.svg.png" height="180"
-  alt="een kaart met alle landen die meedoen aan eurovisie in 2026. blauwe landen zijn automatisch geplaatst voor de finale" />
-  <figcaption>een kaart met alle landen die meedoen aan eurovisie in 2026. blauwe landen zijn automatisch geplaatst voor de finale</figcaption></figure>
+    <figure class="grid-item"><img srcset="ESC_2026_Map.svg.png, ESC_2026_Map.svg_LOW.png 2x" src="ESC_2026_Map.svg.png"
+        height="180"
+        alt="een kaart met alle landen die meedoen aan eurovisie in 2026. blauwe landen zijn automatisch geplaatst voor de finale" />
+      <figcaption>een kaart met alle landen die meedoen aan eurovisie in 2026. blauwe landen zijn automatisch geplaatst
+        voor de finale</figcaption>
+    </figure>
 
-</div>
-<div class= "grid" >
+  </div>
+  <div class="gridphotos">
 
-    <figure class="grid-item"><img srcset="Eurovision_Song_Contest_2025.svg_LOW.png 2x"
-  src="Eurovision_Song_Contest_2025.svg.pn" height="100"
-  alt="het logo van eurovisie" />
-  <figcaption> <br> <br> <br> het logo van eurovisie</figcaption></figure>
+    <figure class="grid-item"><img
+        srcset="Eurovision_Song_Contest_2025.svg_LOW.png, Eurovision_Song_Contest_2025.svg_LOW.png 2x"
+        src="Eurovision_Song_Contest_2025.svg.png" height="100" alt="het logo van eurovisie" />
+      <figcaption> <br> <br> <br> het logo van eurovisie</figcaption>
+    </figure>
 
- <figure class="grid-item"><img srcset="Lys_Assia_(1957).jpg, Lys_Assia_(1957)_low.jpg 2x"
-  src="Lys_Assia_(1957).jpg" height="180"
-  alt="Lys Assia. de eerste winnaar van eurovisie in 1956" />
-  <figcaption>Lys Assia. de eerste winnaar van eurovisie in 1956</figcaption></figure>
+    <figure class="grid-item"><img srcset="Lys_Assia_(1957).jpg, Lys_Assia_(1957)_low.jpg 2x" src="Lys_Assia_(1957).jpg"
+        height="180" alt="Lys Assia. de eerste winnaar van eurovisie in 1956" />
+      <figcaption>Lys Assia. de eerste winnaar van eurovisie in 1956</figcaption>
+    </figure>
 
-<figure class="grid-item"><img srcset="250503_Corinne-Cumming_EBU_00011-jpg.avif, 250503_Corinne-Cumming_EBU_00011-jpg_LOW.jpg 2x"
-  src="250503_Corinne-Cumming_EBU_00011-jpg.avif" height="180"
-  alt="de trofee die in 2025 werd gegeven aan de winnaar" />
-  <figcaption>de trofee die in 2025 werd gegeven aan de winnaar</figcaption></figure>
+    <figure class="grid-item"><img
+        srcset="250503_Corinne-Cumming_EBU_00011-jpg.avif, 250503_Corinne-Cumming_EBU_00011-jpg_LOW.jpg 2x"
+        src="250503_Corinne-Cumming_EBU_00011-jpg.avif" height="180"
+        alt="de trofee die in 2025 werd gegeven aan de winnaar" />
+      <figcaption>de trofee die in 2025 werd gegeven aan de winnaar</figcaption>
+    </figure>
 
-</div>
-  
-<div class="footer">
-<p>Sebastiaan Kinget</p>
-<p>10/05/2026</p>
-<p>eurovisie</p>
-</div>
+  </div>
+</main>
+  <footer class="site-footer">
+      <div class="footer-links">Sebastiaan Kinget</div>
+      <div class="footer-center">11/05/2026</div>
+      <div class="footer-right">eurovisie</div>
+    </footer>
+  </div>
 </body>
+
 </html>
